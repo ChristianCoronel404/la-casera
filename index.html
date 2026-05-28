@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnicería La Casera - Santa Cruz</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans min-h-screen flex flex-col justify-between">
+
+    <header class="bg-red-700 text-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-wider uppercase">🥩 La Casera</h1>
+            <span class="bg-amber-500 text-red-950 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                Santa Cruz - Bolivia
+            </span>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12 max-w-2xl flex-grow flex flex-col justify-center">
+        
+        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-8 rounded shadow-sm">
+            <div class="flex">
+                <div class="flex-shrink-0">
+                    ℹ️
+                </div>
+                <div class="ml-3">
+                    <p class="text-sm text-blue-700 font-medium">
+                        <strong>Comunicado Importante:</strong> Debido a los bloqueos en La Paz, nuestros precios y stock se actualizan constantemente en este sitio web.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 transform transition hover:scale-105 duration-300">
+            <div class="bg-gradient-to-r from-red-600 to-orange-500 p-6 text-white text-center">
+                <span class="bg-white text-red-600 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-widest animate-pulse">
+                    ¡Promoción del Día!
+                </span>
+                <h2 class="text-4xl font-black mt-2">Costilla de Res</h2>
+                <p class="text-lg opacity-90 mt-1">Tierna, jugosa y al mejor precio</p>
+            </div>
+            
+            <div class="p-8 text-center bg-white">
+                <div class="text-5xl font-extrabold text-gray-900 mb-4">
+                    45 <span class="text-2xl font-bold text-red-600">Bs.</span> <span class="text-lg text-gray-500 font-normal">/ Kg</span>
+                </div>
+                <p class="text-gray-600 text-sm italic mb-6">
+                    *Disponible en todas nuestras sucursales de Santa Cruz hasta agotar stock.
+                </p>
+                <div class="border-t pt-6 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-500 gap-2">
+                    <div>🕒 <strong>Horario:</strong> 07:00 - 18:00</div>
+                    <div>📍 <strong>Origen:</strong> Ganadería Beniana</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center">
+            <div class="inline-flex items-center gap-2 bg-emerald-50 border border-emerald-300 text-emerald-800 px-4 py-2 rounded-lg text-sm font-semibold shadow-sm">
+                <span class="flex h-3 w-3 relative">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+                </span>
+                🚀 Deploy automatizado con GitHub Actions & AWS S3
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 py-6 border-t border-gray-800">
+        <div class="container mx-auto px-4 text-center text-sm">
+            <p class="font-medium text-gray-300">Examen de CI/CD — Laboratorio S3</p>
+            <p class="mt-1">Estudiante: <span class="text-white font-semibold">Christian Kevin Coronel Condori</span></p>
+            <p class="text-xs text-gray-500 mt-2">&copy; 2026 Carnicería La Casera. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
